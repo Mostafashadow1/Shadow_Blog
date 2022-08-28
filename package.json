@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^4.3.0",
+    "html-react-parser": "^3.0.4",
+    "moment": "^2.29.4",
     "next": "12.2.5",
+    "nextjs-progressbar": "^0.0.14",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-masonry-css": "^1.0.16"
   },
   "devDependencies": {
     "@types/node": "18.7.13",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.8",
     "typescript": "4.7.4"
   }
 }
