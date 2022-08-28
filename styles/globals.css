@@ -5,17 +5,17 @@
 
 @layer base {
   * {
-    @apply p-0 m-0 box-border;
+    @apply p-0 m-0  box-border;
   }
   body {
-    @apply font-Roboto  overflow-x-hidden;
+    @apply font-Roboto   overflow-x-hidden !scrollbar-thumb-pink-500 scrollbar-thin    scrollbar-track-blue-400 ;
   }
   pre {
     box-shadow: rgb(0 0 0 / 35%) 0 5px 15px;
-    @apply my-4 bg-[#171717] p-4 w-[100%] rounded-lg text-sm text-left whitespace-pre overflow-x-auto;
+    @apply my-4 bg-[#171717] p-4 w-[100%] rounded-lg text-sm text-left whitespace-pre overflow-x-auto scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 ;
   }
   code {
-    @apply text-[#de6ead];
+    @apply text-[#de6ead] scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 ;
   }
 }
 
