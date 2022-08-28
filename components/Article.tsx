@@ -7,7 +7,7 @@ import { articleProps } from "types";
 const Article = ({ article }: articleProps) => {
   return (
     <div className=" my-4 bg-white p-3 border border-mainBorder rounded-lg">
-      <div>
+      <div className="rounded-lg bg-purple-400">
         <Image
           src={article?.image?.url}
           alt="category image"
