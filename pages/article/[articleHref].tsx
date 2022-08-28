@@ -6,7 +6,7 @@ import { articleDetailsProps } from "types";
 
 const articleSpecific = ({ articleDetails }: articleDetailsProps) => {
   return (
-    <div className="p-10">
+    <div className="my-4">
       <Head>
         <title>Sdadow Blog | Article</title>
       </Head>
