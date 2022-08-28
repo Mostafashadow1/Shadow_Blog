@@ -1,6 +1,6 @@
 # Shadow Blog
 
-<h1> Shadow Blog Project : Next Js and GraphQL with Type Script </h1>
+<h1> Shadow Blog Project : Next Js and GraphQL with TypeScript </h1>
 
 ## Hello Everyone 🖐
 
