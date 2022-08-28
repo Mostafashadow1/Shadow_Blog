@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="container flex  justify-between ">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <Image src={logo} alt="logo" width="50" height="50" />
+              <Image placeholder="blur" src={logo} alt="logo" width="50" height="50" />
               <h2 className="text-2xl capitalize font-medium">shadow</h2>
             </div>
           </Link>

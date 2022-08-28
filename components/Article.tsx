@@ -7,9 +7,10 @@ import { articleProps } from "types";
 const Article = ({ article }: articleProps) => {
   return (
     <div className=" my-4 bg-white p-3 border border-mainBorder rounded-lg">
-      <div className="rounded-lg bg-purple-400">
-        {" "}
+      <div>
         <Image
+          placeholder="blur"
+          blurDataURL="base64"
           src={article?.image?.url}
           alt="category image"
           className="rounded-lg"

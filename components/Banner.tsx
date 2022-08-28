@@ -30,7 +30,7 @@ const Banner = ({
         )}
       </div>
       <div className="flex  mx-auto md:mx-0 md:flex-[0.3]">
-        <Image src={image} alt="image" width={"600"} height={"400"} />
+        <Image src={image} priority alt="image" width={"600"} height={"400"} />
       </div>
     </div>
   );
