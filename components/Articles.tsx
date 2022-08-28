@@ -16,7 +16,7 @@ const Articles = ({ articles }: articlesProps) => {
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column"
     >
-      {articles.map((article: any, idx: number) => (
+      {articles?.map((article: any, idx: number) => (
         <Article key={idx} article={article?.node} />
       ))}
     </Masonry>

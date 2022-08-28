@@ -44,7 +44,7 @@ type category = {
 };
 export async function getStaticPaths() {
   const categories = await getCategoriesNameAndHref();
-  const paths = categories.map((category: category) => ({
+  const paths = categories?.map((category: category) => ({
     params: { categoryHref: category.href },
   }));
   return {

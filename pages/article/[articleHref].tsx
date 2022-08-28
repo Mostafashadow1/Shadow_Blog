@@ -28,7 +28,7 @@ export async function getStaticProps({ params }: any) {
 
 export async function getStaticPaths() {
   const articles = await getHrefArticles();
-  const paths = articles.map((article: any) => ({
+  const paths = articles?.map((article: any) => ({
     params: { articleHref: article.href },
   }));
   return {
