@@ -5,15 +5,15 @@ import { articleDetailsProps } from "types";
 import parse from "html-react-parser";
 const ArticleDettails = ({ articleDetails }: articleDetailsProps) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
-      <div className="relative overflow-hidden shadow-md mb-6">
+    <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8 ">
+      <div className="relative bg-purple-500 overflow-hidden shadow-md mb-6">
         <Image
           src={articleDetails?.image?.url}
           alt="category image"
           layout="responsive"
           width="200"
           height="70"
-          className="object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg"
+          className="object-center h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg"
         />
       </div>
       <div className="px-4 lg:px-0">

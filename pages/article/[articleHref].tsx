@@ -1,4 +1,4 @@
-import { ArticleDettails, Banner } from "components";
+import { ArticleDettails } from "components";
 import Head from "next/head";
 import React from "react";
 import { getDetailsArticle, getHrefArticles } from "services/fetchData";
@@ -6,7 +6,7 @@ import { articleDetailsProps } from "types";
 
 const articleSpecific = ({ articleDetails }: articleDetailsProps) => {
   return (
-    <div className="p-10">
+    <div className="mt-4">
       <Head>
         <title>Sdadow Blog | Article</title>
       </Head>
