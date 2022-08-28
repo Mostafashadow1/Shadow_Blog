@@ -6,7 +6,7 @@ import parse from "html-react-parser";
 const ArticleDettails = ({ articleDetails }: articleDetailsProps) => {
   return (
     <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
-      <div className="relative overflow-hidden shadow-md mb-6">
+      <div className="relative bg-purple-500 overflow-hidden shadow-md mb-6">
         <Image
           src={articleDetails?.image?.url}
           alt="category image"
