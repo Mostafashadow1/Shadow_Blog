@@ -7,7 +7,7 @@ import { CategoryProps } from "types";
 const Category = ({ category }: CategoryProps) => {
   return (
     <div className="group transition  duration-300 ease-in-out  my-10 bg-white p-3 border border-mainBorder rounded-lg cursor-pointer">
-      <div className=" relative ">
+      <div className=" relative bg-purple-500">
         <Image
           src={category?.image?.url}
           alt="category image"
