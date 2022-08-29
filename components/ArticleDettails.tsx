@@ -24,7 +24,7 @@ const ArticleDettails = ({ articleDetails }: articleDetailsProps) => {
             <Image
               alt={articleDetails?.author?.name}
               placeholder="blur"
-              blurDataURL="base64"
+              blurDataURL={articleDetails?.author?.name}
               height="50px"
               width="50px"
               className=" rounded-full"

@@ -10,7 +10,7 @@ const Article = ({ article }: articleProps) => {
       <div>
         <Image
           placeholder="blur"
-          blurDataURL="base64"
+          blurDataURL={article?.image?.url}
           src={article?.image?.url}
           alt="category image"
           className="rounded-lg"

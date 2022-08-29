@@ -10,7 +10,7 @@ const Category = ({ category }: CategoryProps) => {
       <div className=" relative ">
         <Image
           placeholder="blur"
-          blurDataURL="small"
+          blurDataURL={category?.image?.url}
           src={category?.image?.url}
           alt="category image"
           className="rounded-lg"
@@ -34,7 +34,7 @@ const Category = ({ category }: CategoryProps) => {
             <Image
               src={category?.author?.avatar?.url}
               placeholder="blur"
-              blurDataURL="base64"
+              blurDataURL={category?.author?.avatar?.url}
               alt="avatar image"
               className="rounded-full"
               width="40"

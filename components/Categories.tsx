@@ -22,7 +22,6 @@ const Categories = ({ categories }: CategoriesProps) => {
           <Image
             src={image}
             placeholder="blur"
-            blurDataURL="small"
             alt="image"
             width="70"
             height="70"
